@@ -1,6 +1,6 @@
 # ForwardSplit Hook
 
-# HookHash : 4FF9961269BF7630D32E15276569C94470174A5DA79FA567C0F62251AA9A36B9
+# HookHash : CB0866E8610CD0EFE7C39BF4146B6096E8C281EB62AD49544E5370FDB2C0C775
 
 This hook is set on a payment to a configuration hook, that forwards a percentage of all XAH payments. ** 1% is reserved in the hook account to self fund transactions **
 
