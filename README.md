@@ -1,89 +1,33 @@
 # Decentralized Drop Wallet
 
-A smart contract system built on Xahau for incentivizing network participation through periodic asset distribution.
+## 🚨 Build on Xahau Competition Submission
+
+This project is our submission for the Build on Xahau competition. The aim is to provide a decentralized method for distributing assets for issuers using clever work with hooks.
 
 ## Overview
 
-This repository contains the source code for two Hooks on Xahau:
-
-- **Hook 1 (Configuration)**: Sets up trust lines for assets on participant wallets.
-- **Hook 2 (Distribution)**: Automatically distributes a fraction (0.005%) of the total assets held in the distribution wallet to all wallets with the correct trust line set up, daily.
+The Decentralized Drop Wallet is designed to incentivize network participation through periodic asset distribution. It operates autonomously on the Xahau network, encouraging new users to join by offering them a share of the network's assets.
 
 ## Features
 
-- **Decentralized**: Runs autonomously on the Xahau network without centralized control.
-- **Incentive Mechanism**: Encourages new users to join the network by offering them a share of the network's assets.
-- **Sustainable**: Designed for long-term distribution, adapting to the number of participants.
-- **Scalable**: Can handle an increasing number of participants with minimal changes.
+- **Decentralized**: Operates without centralized control.
+- **Incentive Mechanism**: Encourages network participation.
+- **Sustainable**: Designed for long-term distribution.
+- **Scalable**: Can handle an increasing number of participants.
 
-## Components
+## Current Status
 
-### Hook 1: Configuration
+This project is still in the design phase. More detailed explanations and documentation will be provided as the development progresses.
 
-- **Purpose**: Prepares wallets to receive assets by setting up trust lines.
-- **Activation**: Triggered by a payment to the Hook address with a memo specifying the asset's hex code.
-- **Functionality**:
-  - Parses the memo for the asset's hex code.
-  - Sets or verifies a trust line for the asset in the receiving wallet.
+## Competition Details
 
-### Hook 2: Distribution
+- **Submission Deadline**: January 31, 2025, 23:59 CET
+- **Prizes**:
+  - 1st Place: $2.5K USDT + 20K XAH
+  - 2nd Place: $1K USDT + 10K XAH
+  - 3rd Place: $500 USDT + 5K XAH
+- **Winners Announcement**: February 7, 2025
 
-- **Purpose**: Distributes assets to participants with configured trust lines.
-- **Activation**: Runs daily based on ledger time.
-- **Functionality**:
-  - Calculates the current total of assets in the distribution wallet.
-  - Distributes 0.005% of that total to each eligible wallet.
+---
 
-## Installation
-
-1. **Clone the Repository**:
-   - Clone this repository to your local machine.
-
-2. **Compile the Hooks**:
-   - Ensure you have the necessary tools for compiling Hooks for Xahau.
-   - Follow the specific instructions in each Hook's directory for compilation.
-
-3. **Deploy to Testnet**:
-   - Deploy each Hook on the Xahau testnet first to test functionality and security.
-
-4. **Deploy to Mainnet**:
-   - After thorough testing, deploy to the Xahau mainnet.
-
-## Usage
-
-- **For Participants**: 
-  - Send a payment with the correct memo to the Hook 1 address to configure your wallet. 
-  - Await daily distributions from Hook 2 if your wallet is eligible.
-
-- **For Administrators**:
-  - Manage the distribution wallet's balance.
-  - Monitor Hook execution and network activity.
-
-## Development
-
-- **Prerequisites**: 
-  - Knowledge of Xahau, XRP Ledger concepts, and smart contract development in the supported language (e.g., C for Hooks).
-  - Development environment set up for compiling and testing Hooks.
-
-- **Contributing**:
-  - Fork the repository and submit pull requests.
-  - Ensure your changes pass all tests and do not disrupt the existing functionality.
-
-## Security
-
-- Both Hooks are designed with security in mind, but community audits and ongoing scrutiny are encouraged.
-- Use best practices for key management, especially for the distribution wallet.
-
-## Testing
-
-- A separate directory with test cases will be provided for each Hook to ensure functionality and robustness.
-
-## License
-
-- {insert licence later}
-
-## Contact
-
-- For questions or issues, please open an issue on this repository or contact handy_4ndy@outlook.com.
-
-This project is still under active development. Contributions, feedback, and participation in testing are very welcome!
+Stay tuned for updates and more detailed information as we continue to develop this decentralized drop wallet system. Good luck to all participants in the competition!
