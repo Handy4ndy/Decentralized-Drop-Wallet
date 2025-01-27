@@ -52,12 +52,14 @@ To use this hook, set the parameters as follows:
 - Drop Account: "D" (HEX_AccountID)
 - Treasury Account: "T" (HEX_AccountID)
 
-
-
 ## Additional Information
 
-For more details, refer to the source code and comments within the hook implementation.
+This is a modification of the following tutorial's, produced by Satish from XRPL Labs 
 
----
+https://www.youtube.com/watch?v=Fi1RjwWh_Aw&list=PL7cEYW-Kob0oKn7ClX2bkA_J05vNxLZL5&index=2&t=126s
+
+https://github.com/technotip/HookExamples/tree/main/Topup
+
+For more details, refer to the source code and comments within the hook implementation.
 
 This README provides an overview of the ConfigForward hook, its workflow, error handling, and example usage. For further assistance, refer to the provided tools and documentation links.

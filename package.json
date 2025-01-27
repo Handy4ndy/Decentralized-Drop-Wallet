@@ -1,0 +1,21 @@
+{
+  "name": "decentralized-drop-wallet",
+  "version": "1.0.0",
+  "description": "This project is our submission for the Build on Xahau competition. The aim is to provide a decentralized method for distributing assets for issuers using clever work with hooks.",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+      "xrpl": "^4.1.0"
+    },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

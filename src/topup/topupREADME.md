@@ -45,8 +45,11 @@ The hook includes error handling for the following scenarios:
 
 To use this hook, set the parameters as follows:
 
+* dropTopupRequest.c
 - Minimum Amount: "A" (8 bytes)
 - Destination Account: "D" (20 bytes)
+
+* treasuryTopupPayment.c
 - Balance of the Requesting Account: "B" (8 bytes)
 - Amount to be Sent: "A" (8 bytes)
 - Destination Account for Top-Up: "D" (20 bytes)
